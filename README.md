@@ -18,6 +18,6 @@
 <ol>
   <li>It scraps the real time stock data from the webpage: 'https://www.moneycontrol.com/stocks/marketstats/indexcomp.php?optex=NSE&opttopic=indexcomp&index=9'</li>
   <li>An alert is created for the user if the change in %CHG lowers or rises 2%</li>
-  <li>In every 10 second, the data is scraped from this webpage</li>
+  <li>In every 30 second time interval, the data is scraped from this webpage</li>
   <li>At the end of data scraping(the scraping is continuous until user stops it) a CSV file is created with each company's stock and its other informations.</li>
 </ol>
